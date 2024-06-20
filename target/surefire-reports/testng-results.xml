@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-20T11:33:18 BST" name="Suite" finished-at="2024-06-20T11:33:28 BST" duration-ms="10007">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestRunner@411f53a0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-06-20T11:33:18 BST" name="FinancialServices" finished-at="2024-06-20T11:33:28 BST" duration-ms="10007">
+      <class name="com.runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runners.TestRunner@411f53a0]" started-at="2024-06-20T11:33:18 BST" name="setUpClass" finished-at="2024-06-20T11:33:19 BST" duration-ms="454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a668b6e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.runners.TestRunner@411f53a0]" started-at="2024-06-20T11:33:19 BST" name="setUpMethod" finished-at="2024-06-20T11:33:22 BST" duration-ms="2985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestRunner@411f53a0]" started-at="2024-06-20T11:33:22 BST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-20T11:33:24 BST" duration-ms="1725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the financial services are accessible or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Lexis Nexis Industrial Process"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:com.runners.TestRunner@411f53a0]" started-at="2024-06-20T11:33:24 BST" name="tearDownMethod" finished-at="2024-06-20T11:33:24 BST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.runners.TestRunner@411f53a0]" started-at="2024-06-20T11:33:24 BST" name="setUpMethod" finished-at="2024-06-20T11:33:26 BST" duration-ms="2414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.TestRunner@411f53a0]" started-at="2024-06-20T11:33:26 BST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-20T11:33:28 BST" duration-ms="1599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the financial services are accessible or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Lexis Nexis Industrial Process"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:com.runners.TestRunner@411f53a0]" started-at="2024-06-20T11:33:28 BST" name="tearDownMethod" finished-at="2024-06-20T11:33:28 BST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runners.TestRunner@411f53a0]" started-at="2024-06-20T11:33:28 BST" name="tearDownClass" finished-at="2024-06-20T11:33:28 BST" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runners.TestRunner -->
+    </test> <!-- FinancialServices -->
+  </suite> <!-- Suite -->
+</testng-results>
